@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 56px;
+  width: 100%;
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+  display: flex; /*Mặc định trục main axis nằm ngang*/
+  justify-content: space-around;
+}
+
+.list-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  color: #fff;
+}
+
+.border-right {
+  border-right: 1px solid #fdf3ff;
+  height: 20px;
+}
